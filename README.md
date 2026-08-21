@@ -105,7 +105,8 @@ verify you reproduce the paper exactly.
 | (Sec. VI-B) | `seed_ensemble.py [scores_dir]` | seed-ensemble control: fusing three seeds of one architecture, separating variance reduction from complementarity | USLegis: TPNet seed-rank 0.665 vs cross-architecture 0.668 |
 
 `ensembles.py` and `seed_ensemble.py` are the only scripts that need more than
-the corpus: download the per-candidate scores from the release page and unpack
+the corpus: download the per-candidate scores from
+<https://github.com/tgnn-dia/tgnn-dia/releases/tag/v1.0> and unpack
 them into `scores/` (format in `scores/README.md`). The candidate slates are
 identical across models, so score-level fusion is exact.
 

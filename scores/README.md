@@ -11,8 +11,9 @@ The candidate slates are identical across models and seeds, so score-level
 fusion across models is exact.
 
 The scores are distributed as release assets, one tar per dataset
-(`scores_{dataset}.tar`, 18 MB to 370 MB). Download the ones you need from the
-repository's release page and unpack them into this directory:
+(`scores_{dataset}.tar`, 18 MB to 370 MB). Download the ones you need from
+<https://github.com/tgnn-dia/tgnn-dia/releases/tag/v1.0> and unpack them into
+this directory:
 
 ```
 for f in scores_*.tar; do tar xf "$f"; done
